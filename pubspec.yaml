@@ -1,6 +1,6 @@
 name: superpoupa_b2b_ui_components
-description: "A new Flutter package project."
-version: 0.0.1
+description: "Flutter plugin with all global components of SuperPoupa B2B (SuperDistribuidor)."
+version: 1.0.0
 homepage:
 
 environment:
