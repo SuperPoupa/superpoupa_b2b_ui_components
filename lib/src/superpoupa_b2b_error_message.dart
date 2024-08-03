@@ -13,7 +13,7 @@ class SuperPoupaB2BErrorMessage extends StatelessWidget {
 
     return Center(
       child: SizedBox(
-        width: screenSize == ScreenSize.xlarge ? MediaQuery.of(context).size.width * 0.3 : MediaQuery.of(context).size.width * 0.8,
+        width: screenSize == ScreenSize.xlarge ? MediaQuery.of(context).size.width * 0.3 : MediaQuery.of(context).size.width * 0.9,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
