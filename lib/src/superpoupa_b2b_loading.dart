@@ -5,6 +5,36 @@ class SuperPoupaB2BLoading extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Center(
+      child: SizedBox(
+        width: 180,
+        height: 180,
+        child: Stack(
+          children: [
+            Align(
+              alignment: Alignment.center,
+              child: SizedBox(
+                width: 80,
+                height: 80,
+                child: CircularProgressIndicator(
+                  color: Colors.orange[700],
+                ),
+              ),
+            ),
+            Align(
+              alignment: Alignment.center,
+              child: Text(
+                '\$',
+                style: TextStyle(
+                  color: Colors.orange[700],
+                  fontSize: 28,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
